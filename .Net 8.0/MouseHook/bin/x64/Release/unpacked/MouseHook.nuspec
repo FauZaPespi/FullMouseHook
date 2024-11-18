@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MouseHook</id>
+    <version>1.0.6-dev</version>
+    <title>MouseHook</title>
+    <authors>FauZaPespi</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE.md</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>icon_MouseHook.png</icon>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/FauZaPespi/FullMouseHook</projectUrl>
+    <description>Simple function for mouse</description>
+    <releaseNotes>Changing some package stuff but not the class content you know ?</releaseNotes>
+    <tags>mouse hook minecraft java speed function lite light fast calc math</tags>
+    <repository type="git" url="https://github.com/FauZaPespi/FullMouseHook" />
+    <dependencies>
+      <!-- Support for .NET Framework 4.8 -->
+      <group targetFramework="net48">
+        <!-- Add any .NET Framework 4.8 specific dependencies here if needed -->
+      </group>
+      <!-- Support for .NET 8.0 -->
+      <group targetFramework="net8.0">
+        <!-- Add any .NET 8.0 specific dependencies here if needed -->
+      </group>
+    </dependencies>
+  </metadata>
+</package>

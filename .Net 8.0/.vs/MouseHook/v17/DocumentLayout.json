@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\oscar_clv\\source\\repos\\MouseHook\\.Net 8.0\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1AF242D1-88C9-4428-B40C-9BD77A324BE3}|MouseHook\\MouseHook.csproj|c:\\users\\oscar_clv\\source\\repos\\mousehook\\.net 8.0\\mousehook\\globalmousehook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF242D1-88C9-4428-B40C-9BD77A324BE3}|MouseHook\\MouseHook.csproj|solutionrelative:mousehook\\globalmousehook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AF242D1-88C9-4428-B40C-9BD77A324BE3}|MouseHook\\MouseHook.csproj|c:\\users\\oscar_clv\\source\\repos\\mousehook\\.net 8.0\\mousehook\\mousehook.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{1AF242D1-88C9-4428-B40C-9BD77A324BE3}|MouseHook\\MouseHook.csproj|solutionrelative:mousehook\\mousehook.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MouseHook",
+              "DocumentMoniker": "C:\\Users\\oscar_clv\\source\\repos\\MouseHook\\.Net 8.0\\MouseHook\\MouseHook.csproj",
+              "RelativeDocumentMoniker": "MouseHook\\MouseHook.csproj",
+              "ToolTip": "C:\\Users\\oscar_clv\\source\\repos\\MouseHook\\.Net 8.0\\MouseHook\\MouseHook.csproj",
+              "RelativeToolTip": "MouseHook\\MouseHook.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-14T09:52:56.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GlobalMouseHook.cs",
+              "DocumentMoniker": "C:\\Users\\oscar_clv\\source\\repos\\MouseHook\\.Net 8.0\\MouseHook\\GlobalMouseHook.cs",
+              "RelativeDocumentMoniker": "MouseHook\\GlobalMouseHook.cs",
+              "ToolTip": "C:\\Users\\oscar_clv\\source\\repos\\MouseHook\\.Net 8.0\\MouseHook\\GlobalMouseHook.cs",
+              "RelativeToolTip": "MouseHook\\GlobalMouseHook.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAowJ8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T09:52:53.767Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

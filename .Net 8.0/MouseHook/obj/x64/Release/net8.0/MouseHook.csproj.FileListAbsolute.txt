@@ -1,0 +1,11 @@
+C:\Users\oscar_clv\source\repos\MouseHook\.Net 8.0\MouseHook\bin\x64\Release\net8.0\MouseHook.deps.json
+C:\Users\oscar_clv\source\repos\MouseHook\.Net 8.0\MouseHook\bin\x64\Release\net8.0\MouseHook.dll
+C:\Users\oscar_clv\source\repos\MouseHook\.Net 8.0\MouseHook\bin\x64\Release\net8.0\MouseHook.pdb
+C:\Users\oscar_clv\source\repos\MouseHook\.Net 8.0\MouseHook\obj\x64\Release\net8.0\MouseHook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oscar_clv\source\repos\MouseHook\.Net 8.0\MouseHook\obj\x64\Release\net8.0\MouseHook.AssemblyInfoInputs.cache
+C:\Users\oscar_clv\source\repos\MouseHook\.Net 8.0\MouseHook\obj\x64\Release\net8.0\MouseHook.AssemblyInfo.cs
+C:\Users\oscar_clv\source\repos\MouseHook\.Net 8.0\MouseHook\obj\x64\Release\net8.0\MouseHook.csproj.CoreCompileInputs.cache
+C:\Users\oscar_clv\source\repos\MouseHook\.Net 8.0\MouseHook\obj\x64\Release\net8.0\MouseHook.dll
+C:\Users\oscar_clv\source\repos\MouseHook\.Net 8.0\MouseHook\obj\x64\Release\net8.0\refint\MouseHook.dll
+C:\Users\oscar_clv\source\repos\MouseHook\.Net 8.0\MouseHook\obj\x64\Release\net8.0\MouseHook.pdb
+C:\Users\oscar_clv\source\repos\MouseHook\.Net 8.0\MouseHook\obj\x64\Release\net8.0\ref\MouseHook.dll

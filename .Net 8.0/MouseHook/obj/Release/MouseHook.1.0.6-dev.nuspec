@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MouseHook</id>
+    <version>1.0.6-dev</version>
+    <title>MouseHook</title>
+    <authors>FauZaPespi</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE.md</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>icon_MouseHook.png</icon>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/FauZaPespi/FullMouseHook</projectUrl>
+    <description>Simple function for mouse</description>
+    <releaseNotes>Changing some package stuff but not the class content you know ?</releaseNotes>
+    <tags>mouse hook minecraft java speed function lite light fast calc math</tags>
+    <repository type="git" url="https://github.com/FauZaPespi/FullMouseHook" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\oscar_clv\source\repos\MouseHook\.Net 8.0\MouseHook\bin\x64\Release\net8.0\MouseHook.dll" target="lib\net8.0\MouseHook.dll" />
+    <file src="C:\Users\oscar_clv\Documents\document\FullMouseHook\icon_MouseHook.png" target="\icon_MouseHook.png" />
+    <file src="C:\Users\oscar_clv\Documents\document\FullMouseHook\LICENSE.md" target="\LICENSE.md" />
+    <file src="C:\Users\oscar_clv\Documents\document\FullMouseHook\README.md" target="\README.md" />
+  </files>
+</package>

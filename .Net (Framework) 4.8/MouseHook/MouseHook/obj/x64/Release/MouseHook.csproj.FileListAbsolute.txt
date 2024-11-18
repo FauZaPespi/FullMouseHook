@@ -1,0 +1,6 @@
+C:\Users\oscar_clv\source\repos\MouseHook\.Net (Framework) 4.8\MouseHook\MouseHook\bin\x64\Release\MouseHook.dll
+C:\Users\oscar_clv\source\repos\MouseHook\.Net (Framework) 4.8\MouseHook\MouseHook\bin\x64\Release\MouseHook.pdb
+C:\Users\oscar_clv\source\repos\MouseHook\.Net (Framework) 4.8\MouseHook\MouseHook\obj\x64\Release\MouseHook.csproj.AssemblyReference.cache
+C:\Users\oscar_clv\source\repos\MouseHook\.Net (Framework) 4.8\MouseHook\MouseHook\obj\x64\Release\MouseHook.csproj.CoreCompileInputs.cache
+C:\Users\oscar_clv\source\repos\MouseHook\.Net (Framework) 4.8\MouseHook\MouseHook\obj\x64\Release\MouseHook.dll
+C:\Users\oscar_clv\source\repos\MouseHook\.Net (Framework) 4.8\MouseHook\MouseHook\obj\x64\Release\MouseHook.pdb

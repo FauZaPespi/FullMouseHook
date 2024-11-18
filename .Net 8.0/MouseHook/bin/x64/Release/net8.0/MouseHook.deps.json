@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MouseHook/1.0.6-dev": {
+        "runtime": {
+          "MouseHook.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MouseHook/1.0.6-dev": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

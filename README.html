@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>FullMouseHook</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h1 id="fullmousehook">FullMouseHook</h1>
+<p>Tired of having to rehook for each project? Use this already pre-made hook to call events at the right time, everything is perfect, use us</p>
+<p><a href="https://github.com/FauZaPespi/FullMouseHook">Github repo</a></p>
+<p><a href="https://discord.com/users/1172167256470474775">Discord profile</a></p>
+<h1 id="globalmousehook">GlobalMouseHook</h1>
+<p><strong>Author:</strong> FauZaPespi<br>
+<strong>Date:</strong> 13.11.2024</p>
+<p>A .NET library designed to globally hook mouse events, providing real-time monitoring and simulation of mouse actions. This library enables developers to intercept, track, and simulate mouse clicks programmatically.</p>
+<hr>
+<h2 id="features">Features</h2>
+<ul>
+<li>
+<p><strong>Global Mouse Hooking:</strong></p>
+<ul>
+<li>Tracks mouse button events globally across the system.</li>
+<li>Monitors cursor position during mouse events.</li>
+</ul>
+</li>
+<li>
+<p><strong>Mouse Button State Tracking:</strong></p>
+<ul>
+<li>Detects and stores the state of the left and right mouse buttons (<code>IsKeepingLeftDown</code>, <code>IsKeepingRightDown</code>).</li>
+</ul>
+</li>
+<li>
+<p><strong>Mouse Click Simulation:</strong></p>
+<ul>
+<li>Simulate left and right mouse button presses and releases (<code>SendLeftDown</code>, <code>SendLeftUp</code>, <code>SendRightDown</code>, <code>SendRightUp</code>).</li>
+</ul>
+</li>
+<li>
+<p><strong>Customizable Event Handling:</strong></p>
+<ul>
+<li>Raises a <code>GlobalMouseClick</code> event when a mouse button is pressed or released, with details of the button and cursor position.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="getting-started">Getting Started</h2>
+<h3 id="prerequisites">Prerequisites</h3>
+<ul>
+<li>.NET Framework or .NET Core compatible runtime.</li>
+<li>Administrative privileges to hook global system events.</li>
+</ul>
+<h3 id="installation">Installation</h3>
+<p>Clone or download the repository and include the <code>GlobalMouseHook</code> class in your project.</p>
+<hr>
+<h2 id="usage">Usage</h2>
+<h3 id="1-set-up-global-mouse-hook">1. Set Up Global Mouse Hook</h3>
+<p>Instantiate the <code>GlobalMouseHook</code> class to start monitoring mouse events globally.</p>
+<pre><code class="language-csharp"><span class="hljs-keyword">var</span> mouseHook = <span class="hljs-keyword">new</span> GlobalMouseHook();
+mouseHook.GlobalMouseClick += (button, position) =&gt;
+{
+    Console.WriteLine(<span class="hljs-string">$&quot;Button: <span class="hljs-subst">{button}</span>, Position: <span class="hljs-subst">{position}</span>&quot;</span>);
+};
+</code></pre>
+<h3 id="2-check-mouse-button-states">2. Check Mouse Button States</h3>
+<p>Use these methods to check the current state of the mouse buttons:</p>
+<pre><code class="language-csharp">
+<span class="hljs-built_in">bool</span> isLeftButtonPressed = mouseHook.IsLeftDown();
+<span class="hljs-built_in">bool</span> isRightButtonPressed = mouseHook.IsRightDown();
+
+<span class="hljs-built_in">bool</span> isLeftHeld = mouseHook.IsKeepingLeftDown();
+<span class="hljs-built_in">bool</span> isRightHeld = mouseHook.IsKeepingRightDown();
+</code></pre>
+<h3 id="3-simulate-mouse-actions">3. Simulate Mouse Actions</h3>
+<p>Simulate mouse clicks programmatically:</p>
+<pre><code class="language-csharp">mouseHook.SendLeftDown();
+mouseHook.SendLeftUp();
+
+mouseHook.SendRightDown();
+mouseHook.SendRightUp();
+</code></pre>
+<h3 id="4-clean-up-resources">4. Clean Up Resources</h3>
+<p>Unhook the mouse hook when it is no longer needed:</p>
+<pre><code class="language-csharp">mouseHook.Unhook();
+</code></pre>
+<h2 id="functionality-list">Functionality List</h2>
+<ul>
+<li>
+<p><strong>SetHook()</strong><br>
+Sets up a global mouse hook using <code>SetWindowsHookEx</code>.</p>
+</li>
+<li>
+<p><strong>Unhook()</strong><br>
+Releases the global mouse hook using <code>UnhookWindowsHookEx</code>.</p>
+</li>
+<li>
+<p><strong>HookCallback()</strong><br>
+Processes mouse events and raises the <code>GlobalMouseClick</code> event.</p>
+</li>
+<li>
+<p><strong>GlobalMouseClick (event)</strong><br>
+Raised when a mouse button is pressed or released, providing button name and cursor position.</p>
+</li>
+<li>
+<p><strong>IsLeftDown()</strong><br>
+Checks if the left mouse button is currently pressed.</p>
+</li>
+<li>
+<p><strong>IsRightDown()</strong><br>
+Checks if the right mouse button is currently pressed.</p>
+</li>
+<li>
+<p><strong>IsKeepingLeftDown()</strong><br>
+Checks if the left mouse button is being held down.</p>
+</li>
+<li>
+<p><strong>IsKeepingRightDown()</strong><br>
+Checks if the right mouse button is being held down.</p>
+</li>
+<li>
+<p><strong>SendLeftDown()</strong><br>
+Simulates a left mouse button press.</p>
+</li>
+<li>
+<p><strong>SendLeftUp()</strong><br>
+Simulates a left mouse button release.</p>
+</li>
+<li>
+<p><strong>SendRightDown()</strong><br>
+Simulates a right mouse button press.</p>
+</li>
+<li>
+<p><strong>SendRightUp()</strong><br>
+Simulates a right mouse button release.</p>
+</li>
+</ul>
+<h2 id="license">License</h2>
+<p>This project is licensed under the MIT License. See the <code>LICENSE</code> file for details.</p>
+
+            <script async src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+            
+        </body>
+        </html>
